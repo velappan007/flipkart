@@ -1,1 +1,422 @@
+.containar{
+    display: grid;
+}
+h2{
+    color: rgb(58, 35, 206);
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 1000px;
+}
+.f p{
+    color: rgb(165, 158, 158);
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+}
+.f i{
+    color:gold;
+    font-size: 20px;}
+.con i{
+    color:gold;
+    font-size: 13px;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+}
+.search {
+    
+    position: absolute;
+    top: 40px;
+    left: 200px;
+   background-color: rgb(204, 204, 204);
+    width: 700px;
+    height: 30px;
+    padding: 10px,20px;
+    border: 1px ;
+    margin: 0px;
+    border-radius: 20px;
+   
+    
 
+}
+.search input{
+    width: 700px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+    font-family: cursive;
+    
+}
+ 
+::placeholder{
+    
+    color: black; 
+}
+ .search2 i{
+    font-size: 20px;
+    background: transparent;
+    position: absolute;
+    top: 45px;
+    left: 210px;
+    color:gray
+}
+.login{
+    position: relative;
+    left: 920px;
+    bottom: 83px;
+    width: 80px;
+    text-align: center;
+}
+.login ul{
+    background:transparent;
+   width: 100px;
+   height: 50px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    right: 100px;
+}
+.login input{
+    background-color: aqua;
+    border: none;
+    font-size: 15px;
+    font-family: serif;
+    text-align: center;
+    border-radius: 20px;
+    width: 150px;
+}
+#submit{
+    background-color: rgb(122, 238, 122);
+    font-family: sans-serif;
+    font-size: 17PX;
+    text-align: center;
+    width: 100px;
+}
+.cart {
+    width: 100px;
+    position: relative;
+    left: 1040px;
+    bottom: 100px;
+    text-align: center;
+    color: black;
+
+}
+.seller {
+    width: 150px;
+    position: relative;
+    left: 140px;
+    bottom: 15px;
+   
+}
+
+/*part-2 */
+
+.containe{
+  align-items: center;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20% 20% 20% 20% 20%;
+  width: 730px;
+  height: 50px;
+  position: relative;
+  bottom:70px;
+}
+
+.Mobile img{
+    width: 150px;
+    height: 100px;
+  
+}
+.Mobile p{
+    text-align: center;
+}
+.Grocery img{
+    width: 150px;
+    height: 100px;
+}
+.Grocery p{
+    text-align: center;
+}
+.Fashion img{
+    width: 150px;
+    height: 100px;
+    position: relative;
+    bottom: 10px;
+}
+.Fashion label{
+   text-align: end;
+   position: relative;
+   left: 30px;
+   bottom: 0px;
+}
+.Fashion select{
+    border: none;
+    width: 15px;
+    text-align: end;
+    position: relative;
+    left: 30px;
+    bottom: 0px;
+}
+.Electronics img{
+    width: 150px;
+    height: 100px;
+}
+.Electronics label{
+    text-align: end;
+    position: relative;
+    left: 30px;
+}
+.Electronics select{
+    border: none;
+    width: 15px;
+    text-align: end;
+    position: relative;
+    left: 30px;
+}
+.Home img{
+    width: 150px;
+    height: 100px;
+}
+.Home label{
+    text-align: end;
+    position: relative;
+    left: 30px;
+}
+.Home select{
+    border: none;
+    width: 15px;
+    text-align: end;
+    position: relative;
+    left: 30px;
+}
+.Appliances img{
+    width: 150px;
+    height: 100px;
+}
+.Appliances p{
+    text-align: center;
+}
+.Travel img{
+    width: 150px;
+    height: 100px;
+}
+.Travel p{
+    text-align: center;
+}
+.Beauty img{
+    width: 150px;
+    height: 100px;
+}
+.Beauty label{
+    text-align: end;
+    position: relative;
+    left: 30px;
+    font-size: 12px;
+}
+.Beauty select{
+    border: none;
+    width: 15px;
+    text-align: end;
+    position: relative;
+    left: 30px;
+}
+.Two img{
+    width: 130px;
+    height: 90px;
+}
+.Two label{
+    text-align: end;
+    position: relative;
+    left: 25px;
+}
+.Two select{
+    border: none;
+    width: 15px;
+    text-align: end;
+    position: relative;
+    left: 25px;
+}
+
+/* paRT-3 */
+
+.grit-contaner{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    row-gap: 10px;
+    position: relative;
+    top: 50px;
+    
+   
+}
+.box1{
+    width: 425px;
+    height: 250px;
+    border: 1px solid;
+    background-image: linear-gradient(green,blue,red);
+    box-shadow: 0 0 5px rgb(29, 228, 10);
+}
+.box1 img{
+    width: 100px;
+    height: 150px;
+    float: right;
+    padding: 10px;
+    position: relative;
+    bottom: 50px;
+    box-shadow: 0 0 5px;
+
+}
+.box1 h3{
+    position: relative;
+    top: 80px;
+    left: 30px;
+    color: aliceblue;
+}
+.box1 p{
+    position: relative;
+    top: 90px;
+    left: 30px;
+    color: lightslategray;
+}
+.box2{
+    width: 425px;
+    height: 250px;
+    border: 1px solid;
+    background-image: linear-gradient(green,blue,red);
+    box-shadow: 0 0 5px rgb(29, 228, 10);
+}
+.box2 img{
+    width: 100px;
+    height: 150px;
+    float: right;
+    padding: 10px;
+    position: relative;
+    bottom: 50px;
+    box-shadow: 0 0 5px;
+}
+.box2 h3{
+    position: relative;
+    top: 80px;
+    left: 30px;
+    color: aliceblue;
+}
+.box2 p{
+    position: relative;
+    top: 90px;
+    left: 30px;
+    color: lightslategray;
+}
+.box3{
+    width: 425px;
+    height: 250px;
+    border: 1px solid;
+    background-image: linear-gradient(green,blue,red);
+    box-shadow: 0 0 5px rgb(29, 228, 10);
+}
+.box3 img{
+    width: 100px;
+    height: 150px;
+    float: right;
+    padding: 10px;
+    position: relative;
+    bottom: 50px;
+    box-shadow: 0 0 5px;
+}
+.box3 h3{
+    position: relative;
+    top: 80px;
+    left: 30px;
+    color: aliceblue;
+}
+.box3 p{
+    position: relative;
+    top: 90px;
+    left: 30px;
+    color: lightslategray;
+}
+.box4{
+    width: 425px;
+    height: 250px;
+    border: 1px solid;
+    background-image: linear-gradient(green,blue,red);
+    box-shadow: 0 0 5px rgb(29, 228, 10);
+}
+.box4 img{
+    width: 100px;
+    height: 150px;
+    float: right;
+    padding: 10px;
+    position: relative;
+    bottom: 50px;
+    box-shadow: 0 0 5px;
+}
+.box4 h3{
+    position: relative;
+    top: 80px;
+    left: 30px;
+    color: aliceblue;
+}
+.box4 p{
+    position: relative;
+    top: 90px;
+    left: 30px;
+    color: lightslategray;
+}
+.box5{
+    width: 425px;
+    height: 250px;
+    border: 1px solid;
+    background-image: linear-gradient(green,blue,red);
+    box-shadow: 0 0 5px rgb(29, 228, 10);
+}
+.box5 img{
+    width: 100px;
+    height: 150px;
+    float: right;
+    padding: 10px;
+    position: relative;
+    bottom: 50px;
+    box-shadow: 0 0 5px;
+}
+.box5 h3{
+    position: relative;
+    top: 80px;
+    left: 30px;
+    color: aliceblue;
+}
+.box5 p{
+    position: relative;
+    top: 90px;
+    left: 30px;
+    color: lightslategray;
+}
+.box6{
+    width: 425px;
+    height: 250px;
+    border: 1px solid;
+    background-image: linear-gradient(green,blue,red);
+    box-shadow: 0 0 5px rgb(29, 228, 10);
+}
+.box6 img{
+    width: 100px;
+    height: 150px;
+    float: right;
+    padding: 10px;
+    position: relative;
+    bottom: 50px;
+    box-shadow: 0 0 5px;
+}
+.box6 h3{
+    position: relative;
+    top: 80px;
+    left: 30px;
+    color: aliceblue;
+}
+.box6 p{
+    position: relative;
+    top: 70px;
+    left: 30px;
+    color: lightslategray;
+}
